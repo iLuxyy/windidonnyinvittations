@@ -1,0 +1,218 @@
+.cover1{
+    
+    background-color: #a52a2a;
+    color: aliceblue;
+}
+.coverdalem2 {
+    padding-top: 350px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.coverdalem2 h1 {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 50px;
+    color: darkmagenta;
+  }
+.coverdalem {
+    padding-top: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.coverdalem h4 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: aliceblue;
+}
+.coverdalem h1{
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 50px;
+    color: aliceblue;
+    font-weight: bold;
+}
+.coverdalem p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    font-weight: bold;  
+    color: aliceblue;
+}
+.container1{    
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.acara1{
+    padding-top: 25px;
+}
+.acara1 h2{
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: darkmagenta;
+}
+.acara1 p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+.couple{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.couple2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.containerimgcouple{
+    margin: 15px;
+}
+.containerimgcouple h3{
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: darkmagenta;
+}
+.containerimgcouple p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    font-weight: bold; 
+    color: black;
+}
+.container2{    
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.akad{    
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border: 2px solid #ffffff;
+    backdrop-filter: blur(4px);
+}
+.akad h2{
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.akad p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+.ceremoni{
+    padding-top: 25px;
+}
+.ceremoni h2{
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.ceremoni p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+.containergalerry{    
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.galerri{
+    padding-top: 25px;
+}
+.galerri h2{
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 30px;
+    color: darkmagenta;
+}
+.galerri p{    
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+.containerdiscuss{  
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.discuss{
+    padding-top: 25px;
+}
+.discuss h2{
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 30px;
+    color: darkmagenta;
+}
+.discuss p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+.containergift{    
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.gift{
+    padding-top: 25px;
+}
+.gift h2{
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 30px;
+    color: darkmagenta;
+}
+.gift p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+.boxmenu{    
+    background-color: darkmagenta;
+}
+.iconbox{
+    color: #ffffff;
+}
+.iconbox i{
+    font-size: 20px;
+    color: #ffffff;
+}
+.boxhover{    
+    width: 50px;
+    margin: 5px;
+}
+.boxhover :hover{  
+    background-color: blueviolet;
+}
+.countdown{    
+    font-family: 'Nunito', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;    
+    font-size: 35px;
+}
+.btn{
+    background-color: darkmagenta;
+}
+.countdownbg{        
+    backdrop-filter: blur(4px);
+}
+.audio-icon-wrapper{
+    width: 4.5rem;
+    height: 4.5rem;
+    font-size: 3rem;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    cursor: pointer;
+    color: #ffffff;
+    backdrop-filter: blur(6px);
+    border-radius: 100%;
+}
+.audio-icon-wrapper i{
+    font-size: 35px;
+}
