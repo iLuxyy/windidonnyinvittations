@@ -14,38 +14,20 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
 </head>
-<body>    
+<body data-bs-spy="scroll" data-bs-target=".boxmenu" data-bs-offset="50">   
 <div id="elemenoverlay2">
-    <nav class="navbar navbar-expand-sm boxmenu fixed-bottom">
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-body justify-content-center">
-                <ul class="navbar-nav">
-                    <li class="nav-item boxhover text-center">
-                      <a class="nav-link iconbox" href="#home"><i class="bi bi-house-door"></i></a>
-                    </li>
-                    <li class="nav-item boxhover text-center">
-                      <a class="nav-link iconbox" href="#bride"><i class="bi bi-people"></i></a>
-                    </li>
-                    <li class="nav-item boxhover text-center">
-                      <a class="nav-link iconbox" href="#ceremoni"><i class="bi bi-calendar2-event"></i></a>
-                    </li>          
-                    <li class="nav-item boxhover text-center">
-                      <a class="nav-link iconbox" href="#galeri"><i class="bi bi-images"></i></a>
-                    </li>
-                    <li class="nav-item boxhover text-center">
-                      <a class="nav-link iconbox" href="#guest"><i class="bi bi-chat-right-quote"></i></a>
-                    </li>
-                  </ul>
-            </div>
-        </div>        
-    </nav>
+
+    <div class="d-flex justify-content-center boxmenu fixed-bottom">
+        <a class="p-2 bgflexicon text-center" href="#home"><i class="bi bi-house-door"></i></a>
+        <a class="p-2 bgflexicon text-center" href="#bride"><i class="bi bi-people"></i></a>
+        <a class="p-2 bgflexicon text-center" href="#ceremoni"><i class="bi bi-calendar2-event"></i></a>
+        <a class="p-2 bgflexicon text-center" href="#galeri"><i class="bi bi-images"></i></a>
+        <a class="p-2 bgflexicon text-center" href="#guest"><i class="bi bi-chat-right-quote"></i></a>
+    </div>    
     <section id="home">
         <div class="row cover2 mx-auto container-fluid">
             <div class="col-md coverdalem2">
+                <h4>The Wedding Of</h4>
                 <h1>Windi & Donny</h1><br>
             </div>
         </div>
@@ -278,7 +260,7 @@
                                 }
                             let play = document.getElementById("play");
                             function playMusic(){
-                                let audio = new Audio("audio/tulangrusuk.mp3");
+                                let audio = new Audio("audio/tehmelly.mp3");
                                 audio.play()
                             }
                             play.addEventListener("click", playMusic);
