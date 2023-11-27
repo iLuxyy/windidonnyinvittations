@@ -100,7 +100,7 @@
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
-    border: 2px solid #ffffff;
+    border-top: 1px solid #ffffff;
     backdrop-filter: blur(4px);
 }
 .akad h2{
