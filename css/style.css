@@ -13,6 +13,12 @@
     font-family: 'La Belle Aurore', cursive;
     font-size: 50px;
     color: darkmagenta;
+}
+.coverdalem2 h4 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: darkmagenta;
   }
 .coverdalem {
     padding-top: 200px;
@@ -173,6 +179,7 @@
 }
 .boxmenu{    
     background-color: darkmagenta;
+    opacity: 50%;    
 }
 .iconbox{
     color: #ffffff;
@@ -215,4 +222,14 @@
 }
 .audio-icon-wrapper i{
     font-size: 35px;
+}
+.bgflexicon{
+    width: 50px;
+    height: 60px;
+    margin: 5px;
+    color: #ffffff;    
+}
+.bgflexicon i{
+    font-size: 25px;
+    color: #ffffff;
 }
